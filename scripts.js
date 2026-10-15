@@ -54,3 +54,16 @@ elements.forEach((element) => {
 const getRandom = (array) => {
   return array[Math.floor(Math.random() * array.length)];
 };
+
+// Ejercicio 5: paleta utilizada con getRandom en los eventos anteriores
+const colors = ["#264653", "#2a9d8f", "#e9c46a", "#f4a261", "#e76f51"];
+
+// Ejercicio 6: GIFs utilizados con getRandom al hacer clic
+const gifs = [
+  "assets/magic-1.gif",
+  "assets/magic-2.gif",
+  "assets/magic-3.gif",
+  "assets/magic-4.gif",
+  "assets/magic-5.gif",
+  "assets/magic-6.gif",
+];
