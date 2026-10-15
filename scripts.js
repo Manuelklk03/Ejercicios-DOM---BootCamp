@@ -49,3 +49,8 @@ elements.forEach((element) => {
     }
   });
 });
+
+// Ejercicio 4: devolver un elemento aleatorio de un array
+const getRandom = (array) => {
+  return array[Math.floor(Math.random() * array.length)];
+};
